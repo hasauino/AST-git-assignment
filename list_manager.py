@@ -43,7 +43,7 @@ def multiply_list(list, multiple):
 
 def get_highest_value(list):
     '''returns the highest value of the list'''
-    pass
+    return max(list)
 
 
 def get_lowest_value(list):
