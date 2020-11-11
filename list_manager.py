@@ -19,7 +19,9 @@ def order_by_increasing_value(list):
 
 def order_by_decreasing_value(list):
     '''returns the list ordered by decreasing value'''
-    pass
+    copied_list = copy(list)
+    copied_list.sort(reverse=True)
+    return copied_list
 
 
 def reverse_order(list):
