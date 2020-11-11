@@ -12,7 +12,9 @@ def random_order(list):
 
 def order_by_increasing_value(list):
     '''returns the list ordered by increasing value'''
-    pass
+    copied_list = copy(list)
+    copied_list.sort()
+    return copied_list
 
 
 def order_by_decreasing_value(list):
