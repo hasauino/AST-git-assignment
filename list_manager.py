@@ -26,12 +26,14 @@ def order_by_decreasing_value(list):
 
 def reverse_order(list):
     '''returns the list in reverse order'''
-    pass
+    copied_list = copy(list)
+    copied_list.reverse()
+    return copied_list
 
 
 def stringfy_list(list):
     '''returns a list with all elements turned into strings'''
-    pass
+    return [str(element) for element in list]
 
 
 def multiply_list(list, multiple):
