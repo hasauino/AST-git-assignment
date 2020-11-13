@@ -77,3 +77,8 @@ def get_standard_deviation(list):
 def get_unique(_list):
     '''returns unique items in a list'''
     return list(set(_list))
+
+
+def get_sum(list):
+    '''returns sum of a list'''
+    return sum(list)
