@@ -76,6 +76,7 @@ def get_standard_deviation(list):
 
 def get_unique(_list):
     '''returns unique items in a list'''
+    # Line 2: this will conflict with my friend's line
     return list(set(_list))
 
 
