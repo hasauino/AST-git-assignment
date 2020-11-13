@@ -72,3 +72,8 @@ def get_standard_deviation(list):
     mean = get_mean(list)
     summation = sum([(xi-mean)**2 for xi in list])
     return (summation/len(list))**0.5
+
+
+def get_unique(_list):
+    '''returns unique items in a list'''
+    return list(set(_list))
