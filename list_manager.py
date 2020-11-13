@@ -65,3 +65,10 @@ def get_median(list):
         return (list[int(len(list)/2)] + list[int(len(list)/2)-1])/2
     else:
         return list[int(len(list)/2)]
+
+
+def get_standard_deviation(list):
+    '''returns the standard deviation of the list'''
+    mean = get_mean(list)
+    summation = sum([(xi-mean)**2 for xi in list])
+    return (summation/len(list))**0.5
