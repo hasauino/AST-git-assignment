@@ -60,7 +60,7 @@ def get_mean(list):
 
 
 def get_median(list):
-    '''returns the mean value of the list'''
+    '''returns the median value of the list'''
     if len(list) % 2 == 0:
         return (list[int(len(list)/2)] + list[int(len(list)/2)-1])/2
     else:
