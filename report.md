@@ -5,7 +5,7 @@
 
 ### Changes
 | Change message | Author | Date & Hour | Lines changed |
---- | --- | --- | --- |--- |--- 
+--- | --- | --- | --- 
 |first commit| Samuel Parra |30.10.2020 10:40| 52 (52+, 0-) |
 |added team names| cloned-humari2s |11.11.2020 16:23| 8 (4+, 4-) |
 |implemented random_order()| cloned-humari2s |11.11.2020 16:34| 15 (13+, 2-) |
