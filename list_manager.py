@@ -48,4 +48,7 @@ def get_highest_value(list):
 
 def get_lowest_value(list):
     '''returns the lowest value of the list'''
-    return min(list)
+    # task 5: one member has to modify a function
+    # developed by another member
+    min_val = min(list)
+    return min_val
