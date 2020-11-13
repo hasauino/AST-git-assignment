@@ -52,3 +52,8 @@ def get_lowest_value(list):
     # developed by another member
     min_val = min(list)
     return min_val
+
+
+def get_mean(list):
+    '''returns the mean value of the list'''
+    return sum(list)/len(list)
